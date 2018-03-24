@@ -1,0 +1,21 @@
+.parent {
+  display: flex;
+}
+
+.parent > div {
+  flex: 1;
+}
+
+body {
+  background-color: green;
+}
+
+#buttons button {
+  background-color: #555555;
+  color: white;
+  padding: 10px;
+}
+
+#addAnimal {
+  color: red;
+}
